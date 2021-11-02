@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+}
+
+.card {
+  margin: 10px;
+  box-shadow: black 0 0 2px 0px;
+  padding: 10px;
+}
